@@ -75,7 +75,9 @@ public/
 
 ---
 
-## Deployment (cPanel / Shared Hosting)
+## Deployment
+
+### Option 1: cPanel / Shared Hosting
 
 ```bash
 npm run build
@@ -91,6 +93,36 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^ index.html [L]
 ```
+
+### Option 2: Render.com
+
+#### Prerequisites
+- GitHub repository with project pushed
+- Render account ([render.com](https://render.com))
+
+#### Steps
+
+1. **Create a new Static Site on Render:**
+   - Log in to [Render Dashboard](https://dashboard.render.com)
+   - Click **New +** → **Static Site**
+   - Connect your GitHub repository
+   - Select the branch to deploy (usually `main`)
+
+2. **Configure Build Settings:**
+   - **Build Command:** `npm run build`
+   - **Publish Directory:** `dist`
+
+3. **Deploy:**
+   - Click **Create Static Site**
+   - Render will automatically build and deploy from the `dist` folder
+   - Your site will be live at `your-name.onrender.com`
+
+4. **Custom Domain (Optional):**
+   - Go to **Settings** → **Custom Domains**
+   - Add your domain and follow DNS configuration steps
+
+5. **Auto-Deploy:**
+   - Any push to your selected branch will trigger automatic rebuilds and redeployment
 
 ---
 
