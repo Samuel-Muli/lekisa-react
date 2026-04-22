@@ -63,7 +63,7 @@ export default function Home() {
               </div>
             </div>
             <div className="col-lg-5 wow fadeInRight d-none d-lg-block">
-              <img src="img/hero-image.png" className="img-fluid" alt="Industrial Chemicals" style={{ filter: 'drop-shadow(0 20px 40px rgba(0,0,0,.3))' }} />
+              <img src="img\1.jpg" className="img-fluid" alt="Industrial Chemicals" style={{ filter: 'drop-shadow(0 20px 40px rgba(0,0,0,.3))' }} />
             </div>
           </div>
         </div>
