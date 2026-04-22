@@ -7,12 +7,12 @@ import Breadcrumb from '../components/Breadcrumb';
 import useWow    from '../hooks/useWow';
 
 const ITEMS = [
-  { img: 'img/g1.jpeg', alt: 'Our Modern Facility',   title: 'Modern Facility',    desc: 'Our state-of-the-art chemical storage facility',    cat: 'facility', badge: 'Facility' },
-  { img: 'img/g2.jpeg', alt: 'Chemical Products',     title: 'Quality Products',   desc: 'Our range of industrial chemical products',         cat: 'products', badge: 'Products' },
-  { img: 'img/g3.jpeg', alt: 'Our Team',              title: 'Expert Team',        desc: 'Our dedicated team of chemical experts',            cat: 'team',     badge: 'Team'     },
-  { img: 'img/g4.jpg',  alt: 'Storage Area',          title: 'Storage Area',       desc: 'Secure storage for all chemical products',          cat: 'facility', badge: 'Facility' },
-  { img: 'img/g5.jpg',  alt: 'Chemical Packaging',    title: 'Secure Packaging',   desc: 'Industry-standard packaging for safety',            cat: 'products', badge: 'Products' },
-  { img: 'img/g6.jpg',  alt: 'Team Collaboration',    title: 'Team Collaboration', desc: 'Our team working together to serve you better',     cat: 'team',     badge: 'Team'     },
+  { img: '/img/g1.jpeg', alt: 'Our Modern Facility',   title: 'Modern Facility',    desc: 'Our state-of-the-art chemical storage facility',    cat: 'facility', badge: 'Facility' },
+  { img: '/img/g2.jpeg', alt: 'Chemical Products',     title: 'Quality Products',   desc: 'Our range of industrial chemical products',         cat: 'products', badge: 'Products' },
+  { img: '/img/g3.jpeg', alt: 'Our Team',              title: 'Expert Team',        desc: 'Our dedicated team of chemical experts',            cat: 'team',     badge: 'Team'     },
+  { img: '/img/g4.jpg',  alt: 'Storage Area',          title: 'Storage Area',       desc: 'Secure storage for all chemical products',          cat: 'facility', badge: 'Facility' },
+  { img: '/img/g5.jpg',  alt: 'Chemical Packaging',    title: 'Secure Packaging',   desc: 'Industry-standard packaging for safety',            cat: 'products', badge: 'Products' },
+  { img: '/img/g6.jpg',  alt: 'Team Collaboration',    title: 'Team Collaboration', desc: 'Our team working together to serve you better',     cat: 'team',     badge: 'Team'     },
 ];
 
 const FILTERS = ['all', 'facility', 'products', 'team'];
