@@ -124,6 +124,14 @@ RewriteRule ^ index.html [L]
 5. **Auto-Deploy:**
    - Any push to your selected branch will trigger automatic rebuilds and redeployment
 
+6. **Dealing with NOT FOUND error on reload:**
+   -Go to Project
+   -on the left sidebar - Manage section, click on Redirects/Rewrites
+   -Add a new rule with the following settings:
+   - **Action:** Rewrite
+   - **Source:** `/*`
+   - **Destination:** `/index.html`
+
 ---
 
 ## Contact Form
@@ -142,7 +150,7 @@ To change it, replace that value with a key from your Web3Forms account.
 ## Author
 
 Designed & developed by **Samuel Muli**
-Portfolio: [muli-samuel.onrender.com](https://muli-samuel.onrender.com)
+Portfolio: [Click Here](https://muli-samuel.onrender.com)
 
 **Client:** Lekisa Trading Limited
 **Location:** Godown No.4, Off Outering Road, Donholm, Nairobi — KENYA
