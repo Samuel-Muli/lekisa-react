@@ -119,7 +119,7 @@ export default function About() {
       <div className="container-fluid stats-section py-5">
         <div className="container py-3 position-relative" style={{ zIndex: 2 }}>
           <div className="row">
-            {[{ n: 11, l: 'Chemical Agents' }, { n: 369, l: 'Successful Deliveries' }, { n: 13, l: 'Skilled Workers' }, { n: 67, l: 'Happy Clients' }].map((s, i) => (
+            {[{ n: 15, l: 'Chemical Agents' }, { n: 649, l: 'Successful Deliveries' }, { n: 15, l: 'Skilled Workers' }, { n: 100, l: 'Happy Clients' }].map((s, i) => (
               <div key={s.l} className="col-md-3 col-6">
                 <div className="stat-item wow fadeInUp" data-wow-delay={`${0.1 * (i + 1)}s`}>
                   <div className="stat-number" data-toggle="counter-up">{s.n}</div>
