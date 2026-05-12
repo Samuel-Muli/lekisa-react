@@ -51,10 +51,10 @@ export default function About() {
                 <div className="col-12">
                   <img src="img/a1.jpg" className="img-fluid rounded-3 shadow-sm" alt="Our Facility" style={{ border: '1px solid rgba(11,30,61,.07)' }} />
                 </div>
-                {[{ n: 11, l: 'Chemical Agents' }, { n: 369, l: 'Successful Deliveries' }].map(s => (
+                {[{ n: 15, l: 'Chemical Agents' }, { n: 649, l: 'Successful Deliveries' }].map(s => (
                   <div key={s.l} className="col-sm-6">
                     <div className="rounded-3 p-4 text-center" style={{ background: 'var(--ltl-gold-pale)', border: '1px solid rgba(201,168,76,.25)' }}>
-                      <h3 className="mb-1" style={{ fontFamily: "'Syne',sans-serif", fontWeight: 800, color: 'var(--ltl-navy)' }} data-toggle="counter-up">{s.n}</h3>
+                      <h3 className="mb-1" style={{ fontFamily: "'Syne',sans-serif", fontWeight: 800, color: 'var(--ltl-navy)' }} data-toggle="counter-up">{`${s.n}+`}</h3>
                       <p className="mb-0 small text-muted" style={{ fontFamily: "'Syne',sans-serif", fontWeight: 600, letterSpacing: '.08em', textTransform: 'uppercase' }}>{s.l}</p>
                     </div>
                   </div>

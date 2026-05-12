@@ -116,6 +116,7 @@ RewriteRule ^ index.html [L]
    - Click **Create Static Site**
    - Render will automatically build and deploy from the `dist` folder
    - Your site will be live at `your-name.onrender.com`
+   -The link will also be available in the Render dashboard under your project
 
 4. **Custom Domain (Optional):**
    - Go to **Settings** → **Custom Domains**
@@ -147,12 +148,29 @@ To change it, replace that value with a key from your Web3Forms account.
 
 ---
 
+
+
+## Client:
+
+[Lekisa Trading Limited](https://lekisatradinglimited.onrender.com)
+
+**Location:** Godown No.4, Off Outering Road, Donholm, Nairobi — KENYA
+
+**Phone:** +254 713 506 664 | +254 741 077 018
+
+**Email:** info@lekisatrading.co.ke
+
+
 ## Author
 
 Designed & developed by **Samuel Muli**
+
 Portfolio: [Click Here](https://muli-samuel.onrender.com)
 
-**Client:** Lekisa Trading Limited
-**Location:** Godown No.4, Off Outering Road, Donholm, Nairobi — KENYA
-**Phone:** +254 713 506 664 | +254 741 077 018
-**Email:** info@lekisatrading.co.ke
+GitHub: [Click Here](https://github.com/Samuel-Muli)
+
+> Samuel is passionate about helping Kenyan businesses shine online with clean design and strong local presence. If you want a site that feels professional and personal, this is the right starting point.
+
+> This website is built to showcase Lekisa Trading Limited with a polished, professional presence. It reflects the clarity and practical edge of the site while maintaining a warm, reliable tone for clients and visitors.
+
+
