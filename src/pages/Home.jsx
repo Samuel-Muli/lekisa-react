@@ -22,9 +22,9 @@ const SERVICES = [
 ];
 
 const TEAM = [
-  { img: 'img/ceo.jpg',                  name: 'Stephen Kioko Mwania', role: 'Director & CEO',           delay: '0.2s' },
-  { img: 'img/md.jpg',                   name: 'Managing Director',    role: 'Managing Director',         delay: '0.4s' },
-  { img: 'img/operations-manager.jpg',   name: 'Chief Operations Mgr', role: 'Operations Leadership',    delay: '0.6s' },
+  { img: 'img/no-profile.png',                  name: 'Stephen Kioko Mwania', role: 'Director & CEO',           delay: '0.2s' },
+  { img: 'img/no-profile.png',                   name: 'Managing Director',    role: 'Managing Director',         delay: '0.4s' },
+  { img: 'img/no-profile.png',   name: 'Chief Operations Mgr', role: 'Operations Leadership',    delay: '0.6s' },
 ];
 
 export default function Home() {
@@ -107,10 +107,10 @@ export default function Home() {
                 <div className="col-12">
                   <img src="/img/a1.jpg" className="img-fluid rounded-3 shadow-sm" alt="Our Facility" style={{ border: '1px solid rgba(11,30,61,.07)' }} />
                 </div>
-                {[{ n: 11, label: 'Chemical Agents' }, { n: 369, label: 'Successful Deliveries' }].map(s => (
+                {[{ n: 15, label: 'Chemical Agents' }, { n: 649, label: 'Successful Deliveries' }].map(s => (
                   <div key={s.label} className="col-sm-6">
                     <div className="rounded-3 p-4 text-center" style={{ background: 'var(--ltl-gold-pale)', border: '1px solid rgba(201,168,76,.25)' }}>
-                      <h3 className="mb-1" style={{ fontFamily: "'Syne',sans-serif", fontWeight: 800, color: 'var(--ltl-navy)' }} data-toggle="counter-up">{s.n}</h3>
+                      <h3 className="mb-1" style={{ fontFamily: "'Syne',sans-serif", fontWeight: 800, color: 'var(--ltl-navy)' }}><span data-toggle="counter-up">{s.n}</span>+</h3>
                       <p className="mb-0 small text-muted" style={{ fontFamily: "'Syne',sans-serif", fontWeight: 600, letterSpacing: '.08em', textTransform: 'uppercase' }}>{s.label}</p>
                     </div>
                   </div>
@@ -149,10 +149,10 @@ export default function Home() {
       <div className="container-fluid stats-section py-5">
         <div className="container py-3 position-relative" style={{ zIndex: 2 }}>
           <div className="row">
-            {[{ n: 11, l: 'Chemical Agents' }, { n: 369, l: 'Successful Deliveries' }, { n: 13, l: 'Skilled Workers' }, { n: 67, l: 'Happy Clients' }].map((s, i) => (
+            {[{ n: 15, l: 'Chemical Agents' }, { n: 649, l: 'Successful Deliveries' }, { n: 15, l: 'Skilled Workers' }, { n: 100, l: 'Happy Clients' }].map((s, i) => (
               <div key={s.l} className="col-md-3 col-6">
                 <div className="stat-item wow fadeInUp" data-wow-delay={`${0.1 * (i + 1)}s`}>
-                  <div className="stat-number" data-toggle="counter-up">{s.n}</div>
+                  <div className="stat-number"><span data-toggle="counter-up">{s.n}</span>+</div>
                   <p>{s.l}</p>
                 </div>
               </div>
@@ -194,7 +194,7 @@ export default function Home() {
         <div className="container py-5">
           <div className="row g-5 align-items-center">
             <div className="col-lg-4 wow fadeInLeft">
-              <img src="img/ceo.jpg" className="img-fluid rounded-3 shadow-sm" alt="Stephen Kioko Mwania — CEO" style={{ border: '1px solid rgba(11,30,61,.07)' }} />
+              <img src="img/no-profile.png" className="img-fluid rounded-3 shadow-sm" alt="Stephen Kioko Mwania — CEO" style={{ border: '1px solid rgba(11,30,61,.07)' }} />
             </div>
             <div className="col-lg-8 wow fadeInRight">
               <div className="ceo-statement">
