@@ -49,7 +49,7 @@ export default function Policy() {
                   Stephen Kioko Mwania, <cite>Director &amp; CEO — Lekisa Trading Limited</cite>
                 </footer>
               </div>
-              <Link to="/contact" className="btn btn-primary rounded-pill py-3 px-5">Speak With Our Team</Link>
+              {/* <Link to="/contact" className="btn btn-primary rounded-pill py-3 px-5">Speak With Our Team</Link> */}
             </div>
           </div>
         </div>
@@ -102,7 +102,7 @@ export default function Policy() {
       </div>
 
       {/* CTA */}
-      <div className="container-fluid py-5 bg-white">
+      {/* <div className="container-fluid py-5 bg-white">
         <div className="container py-5">
           <div className="row justify-content-center">
             <div className="col-lg-8 text-center wow fadeInUp">
@@ -116,7 +116,7 @@ export default function Policy() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <Footer />
     </>

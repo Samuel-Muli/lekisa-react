@@ -27,7 +27,7 @@ const SERVICES = [
     delay: '0.1s',
   },
   {
-    img:   'img/2.jpeg',
+    img:   'img/2.jpg',
     alt:   'Mechanical Engineering',
     badge: 'Innovation Focused',
     icon:  'fa-cogs',
@@ -47,7 +47,7 @@ const SERVICES = [
     delay: '0.2s',
   },
   {
-    img:   'img/3.jpeg',
+    img:   'img/3.jpg',
     alt:   'Process Engineering',
     badge: 'Efficiency Driven',
     icon:  'fa-project-diagram',
@@ -189,7 +189,7 @@ export default function Service() {
       </div>
 
       {/* CTA */}
-      <div className="container-fluid cta-section">
+      {/* <div className="container-fluid cta-section">
         <div className="container position-relative" style={{ zIndex: 2 }}>
           <div className="row justify-content-center">
             <div className="col-lg-8 text-center wow fadeInUp">
@@ -203,7 +203,7 @@ export default function Service() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <Footer />
     </>
