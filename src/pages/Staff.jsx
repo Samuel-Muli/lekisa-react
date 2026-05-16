@@ -88,7 +88,7 @@ export default function Staff() {
       </div>
 
       {/* Stats strip */}
-      <div className="container-fluid team-stats-strip">
+      {/* <div className="container-fluid team-stats-strip">
         <div className="container">
           <div className="row">
             {STATS.map((s, i) => (
@@ -101,7 +101,7 @@ export default function Staff() {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Culture */}
       <div className="container-fluid py-5" style={{ background: 'var(--ltl-smoke)' }}>
@@ -134,7 +134,7 @@ export default function Staff() {
       </div>
 
       {/* Join us CTA */}
-      <div className="container-fluid join-section py-5">
+      {/* <div className="container-fluid join-section py-5">
         <div className="container py-5 position-relative" style={{ zIndex: 2 }}>
           <div className="row justify-content-center">
             <div className="col-lg-8 text-center wow fadeInUp">
@@ -152,7 +152,7 @@ export default function Staff() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <Footer />
     </>
