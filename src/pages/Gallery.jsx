@@ -13,6 +13,16 @@ const ITEMS = [
   { img: '/img/g4.jpg',  alt: 'Storage Area',          title: 'Storage Area',       desc: 'Secure storage for all chemical products',          cat: 'facility', badge: 'Facility' },
   { img: '/img/g5.jpg',  alt: 'Chemical Packaging',    title: 'Secure Packaging',   desc: 'Industry-standard packaging for safety',            cat: 'products', badge: 'Products' },
   { img: '/img/g6.jpg',  alt: 'Team Collaboration',    title: 'Team Collaboration', desc: 'Our team working together to serve you better',     cat: 'team',     badge: 'Team'     },
+  { img: '/img/1.jpg',  alt: 'Facility Entrance',      title: 'Facility Entrance',   desc: 'Welcoming entrance to our modern facility',          cat: 'facility', badge: 'Facility' },
+  { img: '/img/2.jpg',  alt: 'Chemical Storage',       title: 'Chemical Storage',    desc: 'Organized storage for safe chemical handling',        cat: 'facility', badge: 'Facility' },
+  { img: '/img/3.jpg',  alt: 'Production Floor',       title: 'Production Floor',    desc: 'Our facility production floor in action',           cat: 'facility', badge: 'Facility' },
+  { img: '/img/4.jpg',  alt: 'Facility Inspection',    title: 'Facility Inspection', desc: 'Careful inspection of our storage and work areas',   cat: 'facility', badge: 'Facility' },
+  { img: '/img/g7.jpg',  alt: 'Product Batch',          title: 'Product Batch',       desc: 'High-quality chemical batch ready for shipping',     cat: 'products', badge: 'Products' },
+  { img: '/img/g8.jpg',  alt: 'Labelled Containers',    title: 'Labelled Containers', desc: 'Clearly labelled chemical containers for safety',   cat: 'products', badge: 'Products' },
+  { img: '/img/g9.jpg',  alt: 'Product Lineup',         title: 'Product Lineup',      desc: 'A lineup of our chemical products on display',      cat: 'products', badge: 'Products' },
+  { img: '/img/g10.jpg', alt: 'Product Packaging',      title: 'Product Packaging',   desc: 'Careful packaging to ensure safe delivery',          cat: 'products', badge: 'Products' },
+  { img: '/img/g11.jpg', alt: 'Finished Products',      title: 'Finished Products',   desc: 'Finished chemical products ready for customers',    cat: 'products', badge: 'Products' },
+
 ];
 
 const FILTERS = ['all', 'facility', 'products', 'team'];
@@ -87,7 +97,7 @@ export default function Gallery() {
       </div>
 
       {/* CTA */}
-      <div className="container-fluid cta-section">
+      {/* <div className="container-fluid cta-section">
         <div className="container position-relative" style={{ zIndex: 2 }}>
           <div className="row justify-content-center">
             <div className="col-lg-8 text-center wow fadeInUp">
@@ -101,7 +111,7 @@ export default function Gallery() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <Footer />
     </>
